@@ -2,3 +2,37 @@
   box-sizing: border-box;
   margin: 0;
 }
+/* Стили для кнопки выбора цвета */
+.color-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+
+.blue {
+  background-color: rgb(0, 153, 255);
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Активный класс для кнопки выбора цвета */
+.active-border {
+  box-shadow: 0px 0px 0px 3px #fe9b07;
+  /* border: 5px solid #fe9b07; */
+}
+.buy{
+  background-color: rgb(44, 44, 44);
+  border: #000000;
+  width: 250px;
+}
+.price {
+  font-weight: bolder;
+}
